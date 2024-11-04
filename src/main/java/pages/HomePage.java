@@ -11,7 +11,7 @@ public class HomePage {
 	
 	WebDriver driver;
 
-	// parameterized constructor initialized when class in instantiated [object created]
+	// parameterized constructor initialized when class is instantiated [object created]
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		// PageFactory class help to instantiate WebElements
